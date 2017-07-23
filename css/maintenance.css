@@ -1,0 +1,71 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font: 16px/1.5 sans-serif;
+}
+
+main {
+    display: flex;
+    margin: 0 auto;
+    max-width: 500px;
+    height: 100%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin-bottom: .9rem;
+}
+
+a {
+    color: #1867bd;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.logo {
+    background: transparent url('../media/logo.svg') 0 0 no-repeat;
+    background-size: 500px 176px;
+    margin: 20px auto 0;
+    width: 500px;
+    height: 176px;
+}
+
+.tagline {
+    margin-bottom: 0;
+    font-size: 1.2rem;
+}
+
+/* Hide visually, but not to screen readers */
+.visually-hidden {
+    position: absolute!important;
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    padding: 0;
+    border: 0;
+}
